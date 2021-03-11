@@ -215,11 +215,11 @@ static const NSUInteger reusable_page_count = 3;
 }
 
 - (void)_hideStatusBarIfNeeded {
-    self.presentingViewController.view.window.windowLevel = UIWindowLevelStatusBar;
+    // self.presentingViewController.view.window.windowLevel = UIWindowLevelStatusBar;
 }
 
 - (void)_showStatusBarIfNeeded {
-    self.presentingViewController.view.window.windowLevel = UIWindowLevelNormal;
+    // self.presentingViewController.view.window.windowLevel = UIWindowLevelNormal;
 }
 
 - (PBImageScrollViewController *)_imageScrollerViewControllerForPage:(NSInteger)page {
